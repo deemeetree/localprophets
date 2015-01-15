@@ -46,7 +46,13 @@
 <br>&nbsp;<br>
 <br>&nbsp;<br>
 <h1 class="blink_me">RSVP</h1>
-<form class="pure-form" action="https://docs.google.com/forms/d/1fD9dsPp8wL4fmx7xgxuEGAD9t6eQjaVevHdsD0SelVU/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<script type="text/javascript">var submitted=false;</script>
+
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='http://soundcloud.com/local-prophets';}"></iframe>
+
+<form class="pure-form" action="https://docs.google.com/forms/d/1fD9dsPp8wL4fmx7xgxuEGAD9t6eQjaVevHdsD0SelVU/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
 <input type="text" name="entry.2039885558" value="" class="ss-q-short" id="entry_2039885558" dir="auto" aria-label="NAME  " title="" placeholder="your name">
 <input type="text" name="entry.2118529633" value="" class="ss-q-short" id="entry_2118529633" dir="auto" aria-label="EMAIL ADRESS  " title="" placeholder="your email">
 <input type="hidden" name="draftResponse" value="[,,&quot;262836112833911859&quot;]">
