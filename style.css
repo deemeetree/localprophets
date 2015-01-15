@@ -3,11 +3,22 @@ body {
 }
 
 h1 {
-font-family: "Helvetica", "Arial", sans-serif;
-font-size: 60px;
-line-height: 1.5;
-margin: 0 0 -5.5em;
-color: #000;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 60px;
+    line-height: 1.5;
+    margin: 0 0 0em;
+    color: #000;
+}
+
+#image {
+    width: 957px;
+    height: 362px;
+}
+
+#subscribeform {
+    position: relative;
+    margin: -50px 0 0 -495px;
+    z-index: 99;
 }
 
 
