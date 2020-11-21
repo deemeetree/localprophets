@@ -10,6 +10,22 @@ h1 {
     color: #000;
 }
 
+h3 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0 0 0em;
+    color: #000;
+}
+
+h4 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 0em;
+    color: #000;
+}
+
 #image {
     width: 957px;
     height: 362px;
@@ -17,7 +33,7 @@ h1 {
 
 #subscribeform {
     position: relative;
-    margin: -50px 0 0 -495px;
+    margin: 40px 0 0 0px;
     z-index: 99;
 }
 
